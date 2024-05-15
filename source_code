@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoWiz - Mapping the Unseen, Sensing the Unheard</title>
+    <style>
+        body {
+            background-color: #2E2E2E;
+            color: #E0E0E0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1B1B1B;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #E0E0E0;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #1B1B1B;
+            color: #888;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .project, .blog-post {
+            background-color: #3E3E3E;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GeoWiz</h1>
+        <p>Mapping the Unseen, Sensing the Unheard</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! I'm GeoWiz, a specialist in remote sensing and GIS. I have a passion for uncovering hidden patterns and making sense of complex spatial data. My work involves using advanced technologies to analyze and visualize geographical information.</p>
+    </section>
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Urban Heat Mapping</h3>
+            <p>This project involves analyzing thermal data to map urban heat islands and provide insights for urban planning and development.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2: Forest Cover Change Detection</h3>
+            <p>Using satellite imagery to monitor changes in forest cover over time and assess the impact of deforestation and reforestation efforts.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+    <section id="blog" class="container">
+        <h2>Blog</h2>
+        <div class="blog-post">
+            <h3>Blog Post 1: The Future of Remote Sensing</h3>
+            <p>Exploring the latest trends and innovations in remote sensing technology and their potential applications.</p>
+        </div>
+        <div class="blog-post">
+            <h3>Blog Post 2: GIS in Disaster Management</h3>
+            <p>How GIS is being used to enhance disaster preparedness, response, and recovery efforts around the world.</p>
+        </div>
+        <!-- Add more blog posts as needed -->
+    </section>
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>If you would like to get in touch, please email me at <a href="mailto:geowiz@example.com">geowiz@example.com</a>.</p>
+    </section>
+    <footer>
+        &copy; 2024 GeoWiz. All rights reserved.
+    </footer>
+</body>
+</html>
